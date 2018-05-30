@@ -1,0 +1,100 @@
+digraph {
+
+    // settings for nodes
+    node [ shape = box ]
+
+    // ガチャ1
+    node [ color="#ee0000" style="solid,filled" fillcolor="#ffeeee"];
+
+    tomoe [ label="トモエ御炎" ];
+    torito [ label="トリ首領" ];
+    giruga [ label="ギル亀ッシュ" ];
+    yashari [ label="ヤシャリエル" ];
+    ouro [ label="オウロラ" ];
+    kodoku [ label="コドクエレブレ" ];
+    haryu [ label="ハ竜ケーン" ];
+    misute [ label="ミス摂ルティン" ];
+    sarau [ label="サラウーマンダー" ];
+    haimo [ label="ハイモデウス" ];
+
+    // ガチャ2
+    node [ color ="#ee0000" style="filled" fillcolor="#ffeeee"];
+
+    monoho [ label="モノ欲シザオ"];
+    tururo [ label="ツルロ木" ];
+    marin [ label="マリンアントネット" ];
+    chihaya [ label="チハヤフルメタル" ];
+
+    // 降臨1
+    node [ color ="#00aa00" style="filled" fillcolor="#eeffee"];
+    node [ color ="#0000ee" style="filled" fillcolor="#eeeeff"];
+
+    suruto [ label="スルトーテム" ];
+    ribaru [ label="リバールキリー" ];
+    barau [ label="バラウールチル" ];
+    ajin [ label="アジンガーX" ];
+    sabuna [ label="サブナブック" ];
+
+    // 降臨2
+    node [ color ="#0000ee" style="filled" fillcolor="#eeeeff"];
+
+    tuin [ label="ツインロースタ" ];
+    tanza [ label="タンザナイト" ];
+    rindo [ label="リンドウブルム" ];
+    kinto [ label="キントウロボロス" ];
+    fein [ label="フェイントリル" ];
+
+    // 降臨3
+    node [ color ="#0000ee" style="filled" fillcolor="#eeeeff"];
+
+    tavana [ label="タヴァナルシス" ];
+    marai [ label="マー雷王"]
+    guren [ label="グレインテイル" ];
+    biako [ label="ビアッコ" ];
+    kyonshi [ label="キョン死ィ" ];
+
+    // ガチャ1
+    tomoe -> barau [ label="HP100%UP\nシールドブレイカー" ];
+    torito -> suruto [ label="単体攻撃\n物キラー50%" ];
+    giruga -> ribaru [ label="ATK100%UP\n全体攻撃" ];
+    yashari -> sabuna [ label="トゲガード\n物キラー50%" ];
+    ouro -> ajin [ label="9回攻撃\nチェンジガード"];
+    ouro -> biako [ label="9回攻撃" ];
+
+    // ガチャ2
+    kodoku -> rindo [ label="ATK100%UP\nトゲガード" ];
+    haryu -> tuin [ label="トゲガード\n獣キラー50%"];
+    misute -> tanza [ label="トゲガード\n水50%軽減" ];
+    sarau -> fein [ label="闇50%軽減\n獣キラー50%" ];
+    haimo -> kinto [ label="光50%軽減\n龍キラー50%" ];
+
+    // ガチャ3
+    monoho -> tavana [ label="チェンジガード\n英キラー50%" ];
+    tururo -> marai [ label="シールドブレイカー\n水50%軽減" ];
+    marin -> kyonshi [ label="睡眠耐性50%\nシールドブレイカー\n霊キラー50%" ];
+    chihaya -> ajin [ label="9回攻撃\n光50%軽減" ];
+    chihaya -> biako [ label="9回攻撃\n毒耐性50%\n光50%軽減" ];
+
+    // 降臨1
+    barau -> ribaru [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
+    suruto -> barau [ label="HP100%UP\nシールドブレイカー" ];
+    ribaru -> tuin [ label="回復\n火50%軽減\nトゲガード" ];
+    ribaru -> suruto [ label="回復\n火50%軽減" ];
+    // sabuna -> [ label="睡眠耐性50%\nチェンジガード\n光25%軽減"]
+    ajin -> kyonshi [ label="睡眠耐性50%\nシールドブレイカー" ];
+
+    // 降臨2
+    tuin -> guren [ label="獣キラー50%" ];
+    tanza -> tavana [ label="チェンジガード\n火25%軽減" ];
+    rindo -> marai [ label="獣キラー30%\nシールドブレイカー" ];
+    fein -> biako [ label="6回攻撃\n毒耐性50%" ];
+    kinto -> fein [ label="全体攻撃\n獣キラー30%" ];
+
+    // 降臨3
+    tavana -> rindo [ label="木50%軽減\nトゲガード" ];
+    marai -> suruto [ label="物キラー30%" ];
+    guren -> tanza [ label="トゲガード\n物キラー30%" ];
+    biako -> sabuna [ label="6回攻撃\n物キラー30%\nトゲガード" ];
+    kyonshi -> kinto [ label="回復\n光50%軽減\nトゲガード" ];
+    kyonshi -> biako [ label="回復\n光50%軽減" ];
+}
