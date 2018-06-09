@@ -35,6 +35,13 @@ digraph {
     // 降臨設定
     node [ color ="#0000ee" style="filled" fillcolor="#eeeeff"];
 
+    // 上級ステージ
+    marugo [ label="マルゴシアス" ];
+    kerupi [ label="ケルピ威" ];
+    sekume [ label="セク滅ト" ];
+    ramia [ label="ラミア弥陀仏" ];
+    bihimo [ label="ビヒモスヤァ" ];
+
     // 降臨1
     suruto [ label="スルトーテム" ];
     ribaru [ label="リバールキリー" ];
@@ -82,6 +89,9 @@ digraph {
     marin -> kyonshi [ label="睡眠耐性50%\nシールドブレイカー\n霊キラー50%" ];
     chihaya -> ajin [ label="9回攻撃\n光50%軽減" ];
     chihaya -> biako [ label="ランダム9回攻撃\n毒耐性50%\n光50%軽減" ];
+
+    // 上級
+    ramia -> urami [ label="全体攻撃\n毒耐性70%\n闇50%軽減\nチェンジガード" ]
 
     // 降臨1
     barau -> ribaru [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
