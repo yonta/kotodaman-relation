@@ -6,7 +6,7 @@ digraph {
     node [ shape = box ];
 
     // ガチャ設定
-    node [ color="#ee0000" style="solid,filled" fillcolor="#ffeeee"];
+    node [ color="#221111" style="bold,filled" fillcolor="#fdfad9" ];
 
     // ガチャ1
     tomoe [ label="トモエ御炎" ];
@@ -34,7 +34,7 @@ digraph {
     kibou [ label="キボウ" ];
 
     // 降臨設定
-    node [ color ="#0000ee" style="filled" fillcolor="#eeeeff"];
+    node [ color="#111122" style="solid,filled" fillcolor="#f0f0f6"];
 
     // 上級ステージ
     // marugo [ label="マルゴシアス" ];
