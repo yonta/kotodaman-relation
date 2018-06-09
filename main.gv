@@ -36,11 +36,11 @@ digraph {
     node [ color ="#0000ee" style="filled" fillcolor="#eeeeff"];
 
     // 上級ステージ
-    marugo [ label="マルゴシアス" ];
-    kerupi [ label="ケルピ威" ];
-    sekume [ label="セク滅ト" ];
+    // marugo [ label="マルゴシアス" ];
+    // kerupi [ label="ケルピ威" ];
+    // sekume [ label="セク滅ト" ];
     ramia [ label="ラミア弥陀仏" ];
-    bihimo [ label="ビヒモスヤァ" ];
+    // bihimo [ label="ビヒモスヤァ" ];
 
     // 降臨1
     suruto [ label="スルトーテム" ];
