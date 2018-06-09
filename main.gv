@@ -20,17 +20,17 @@ digraph {
     sarau [ label="サラウーマンダー" ];
     haimo [ label="ハイモデウス" ];
 
-    // ガチャ1.5
+    // ガチャ2
     // takami [ label="タカミオ結ビ" ];
     // kamio [ label="カミオ結ビ" ];
 
-    // ガチャ2
+    // ガチャ3
     monoho [ label="モノ欲シザオ"];
     tururo [ label="ツルロ木" ];
     marin [ label="マリンアントネット" ];
     chihaya [ label="チハヤフルメタル" ];
 
-    // ガチャ3
+    // ガチャ4
     kibou [ label="キボウ" ];
 
     // 降臨設定
@@ -77,53 +77,55 @@ digraph {
     ouro -> ajin [ label="9回攻撃\nチェンジガード"];
     ouro -> biako [ label="9回攻撃" ];
 
-    // ガチャ2
+    // ガチャ3
     kodoku -> rindo [ label="ATK100%UP\nトゲガード" ];
     haryu -> tuin [ label="トゲガード\n獣キラー50%"];
     misute -> tanza [ label="トゲガード\n水50%軽減" ];
     sarau -> fein [ label="闇50%軽減\n獣キラー50%" ];
     haimo -> kinto [ label="光50%軽減\n龍キラー50%" ];
 
-    // ガチャ3
+    // ガチャ4
     monoho -> tavana [ label="チェンジガード\n英キラー50%" ];
     tururo -> marai [ label="シールドブレイカー\n水50%軽減" ];
     marin -> kyonshi [ label="睡眠耐性50%\nシールドブレイカー\n霊キラー50%" ];
     chihaya -> ajin [ label="9回攻撃\n光50%軽減" ];
     chihaya -> biako [ label="ランダム9回攻撃\n毒耐性50%\n光50%軽減" ];
 
-    // 上級
-    ramia -> urami [ label="全体攻撃\n毒耐性70%\n闇50%軽減\nチェンジガード" ];
+    // ガチャ5
+    kibou -> urami [ label="き\n全体攻撃\n毒耐性100%\nチェンジガード" ];
+
+    // 上級クエスト
+    ramia -> urami [ label="全体攻撃\n(満)毒耐性70%\n闇50%軽減\nチェンジガード" ];
 
     // 降臨1
     suruto -> barau [ label="HP100%UP\nシールドブレイカー" ];
-    ribaru -> tuin [ label="回復\n火50%軽減\nトゲガード" ];
-    ribaru -> suruto [ label="回復\n火50%軽減" ];
+    ribaru -> tuin [ label="回復\n(満)火50%軽減\nトゲガード" ];
+    ribaru -> suruto [ label="回復\n(満)火50%軽減" ];
     barau -> ribaru [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
     barau -> kerupi [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
-    barau -> suito [ label="毒耐性50%\n水25%軽減" ];
+    barau -> suito [ label="(満)毒耐性50%\n水25%軽減" ];
     // sabuna -> ajin [ label="睡眠耐性50%\nチェンジガード\n光25%軽減", style=dotted ];
-    ajin -> kyonshi [ label="睡眠耐性50%\nシールドブレイカー" ];
+    ajin -> kyonshi [ label="(満)睡眠耐性50%\nシールドブレイカー" ];
 
     // 降臨2
     tuin -> guren [ label="獣キラー50%" ];
     tanza -> tavana [ label="チェンジガード\n火25%軽減" ];
-    tanza -> mehisu [ label="睡眠耐性50%\n火25%軽減" ];
-    rindo -> marai [ label="獣キラー30%\nシールドブレイカー" ];
-    fein -> biako [ label="ランダム6回攻撃\n毒耐性50%" ];
+    tanza -> mehisu [ label="(満)睡眠耐性50%\n火25%軽減" ];
+    rindo -> marai [ label="(満)獣キラー30%\nシールドブレイカー" ];
+    fein -> biako [ label="ランダム6回攻撃\n(満)毒耐性50%" ];
     kinto -> fein [ label="全体攻撃\n獣キラー30%" ];
-    kinto -> urami [ label="き\n全体攻撃\n毒耐性" ]
+    kinto -> urami [ label="き\n全体攻撃\n(満)毒耐性" ]
 
     // 降臨3
-    tavana -> rindo [ label="木50%軽減\nトゲガード" ];
+    tavana -> rindo [ label="(満)木50%軽減\nトゲガード" ];
     marai -> suruto [ label="物キラー30%" ];
     guren -> tanza [ label="トゲガード\n物キラー30%" ];
-    biako -> sabuna [ label="ランダム6回攻撃\n物キラー30%\nトゲガード" ];
-    kyonshi -> kinto [ label="回復\n光50%軽減\nトゲガード" ];
-    kyonshi -> biako [ label="回復\n光50%軽減" ];
+    biako -> sabuna [ label="ランダム6回攻撃\n(満)物キラー30%\nトゲガード" ];
+    kyonshi -> kinto [ label="回復\n(満)光50%軽減\nトゲガード" ];
+    kyonshi -> biako [ label="回復\n(満)光50%軽減" ];
 
-    // ガチャ3、降臨4
-    kibou -> urami [ label="き\n全体攻撃\n毒耐性100%\nチェンジガード" ];
-    mehisu -> guren [ label="全体攻撃\n獣キラー30%" ];
-    suito -> tavana [ label="チェンジガード\n英キラー30%" ];
+    // 降臨4
+    mehisu -> guren [ label="全体攻撃\n(満)獣キラー30%" ];
+    suito -> tavana [ label="チェンジガード\n(満)英キラー30%" ];
     // urami -> [ label="" ];
 }
