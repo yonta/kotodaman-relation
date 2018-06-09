@@ -3,7 +3,7 @@ digraph {
     layout = dot;
 
     // settings for nodes
-    node [ shape = box ]
+    node [ shape = box ];
 
     // ガチャ設定
     node [ color="#ee0000" style="solid,filled" fillcolor="#ffeeee"];
@@ -92,7 +92,7 @@ digraph {
     chihaya -> biako [ label="ランダム9回攻撃\n毒耐性50%\n光50%軽減" ];
 
     // 上級
-    ramia -> urami [ label="全体攻撃\n毒耐性70%\n闇50%軽減\nチェンジガード" ]
+    ramia -> urami [ label="全体攻撃\n毒耐性70%\n闇50%軽減\nチェンジガード" ];
 
     // 降臨1
     suruto -> barau [ label="HP100%UP\nシールドブレイカー" ];
@@ -107,7 +107,7 @@ digraph {
     // 降臨2
     tuin -> guren [ label="獣キラー50%" ];
     tanza -> tavana [ label="チェンジガード\n火25%軽減" ];
-    tanza -> mehisu [ label="睡眠耐性50%\n火25%軽減" ]
+    tanza -> mehisu [ label="睡眠耐性50%\n火25%軽減" ];
     rindo -> marai [ label="獣キラー30%\nシールドブレイカー" ];
     fein -> biako [ label="ランダム6回攻撃\n毒耐性50%" ];
     kinto -> fein [ label="全体攻撃\n獣キラー30%" ];
