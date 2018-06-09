@@ -60,7 +60,7 @@ digraph {
     // 降臨3
     tavana [ label="タヴァナルシス" ];
     marai [ label="マー雷王"]
-    guren [ label="グレインテイル" ];
+    guren [ label="グレンテイル" ];
     biako [ label="ビアッコ" ];
     kyonshi [ label="キョン死ィ" ];
 
