@@ -6,7 +6,7 @@ digraph {
     node [ shape = box ];
 
     // ガチャ設定
-    node [ color="#221111" style="bold,filled" fillcolor="#fdfad9" ];
+    node [ color="#1c0e0e" style="bold,filled" fillcolor="#fdfde4" ];
 
     // ガチャ1
     tomoe [ label="トモエ御炎" ];
