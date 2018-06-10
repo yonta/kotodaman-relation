@@ -9,65 +9,68 @@ digraph {
     node [ color="#1c0e0e" style="bold,filled" fillcolor="#fdfde4" ];
 
     // ガチャ1
-    tomoe [ label="トモエ御炎" ];
-    torito [ label="トリ首領" ];
-    giruga [ label="ギル亀ッシュ" ];
-    yashari [ label="ヤシャリエル" ];
-    ouro [ label="オウロラ" ];
-    kodoku [ label="コドクエレブレ" ];
-    haryu [ label="ハ竜ケーン" ];
-    misute [ label="ミス摂ルティン" ];
-    sarau [ label="サラウーマンダー" ];
-    haimo [ label="ハイモデウス" ];
+    tomoe [ label="トモエ御炎" fontcolor="#cc0000" ];
+    torito [ label="トリ首領" fontcolor="#0000dd" ];
+    giruga [ label="ギル亀ッシュ" fontcolor="#007000" ];
+    yashari [ label="ヤシャリエル" fontcolor="#403000" ];
+    ouro [ label="オウロラ" fontcolor="#990099" ];
+    kodoku [ label="コドクエレブレ" fontcolor="#cc0000" ];
+    haryu [ label="ハ竜ケーン" fontcolor="#0000dd" ];
+    misute [ label="ミス摂ルティン" fontcolor="#007000" ];
+    sarau [ label="サラウーマンダー" fontcolor="#403000" ];
+    haimo [ label="ハイモデウス" fontcolor="#990099" ];
 
     // ガチャ2
-    // takami [ label="タカミオ結ビ" ];
-    // kamio [ label="カミオ結ビ" ];
+    // takami [ label="タカミオ結ビ" fontcolor="#cc0000" ];
+    // kamio [ label="カミオ結ビ" fontcolor="#007000" ];
 
     // ガチャ3
-    monoho [ label="モノ欲シザオ"];
-    tururo [ label="ツルロ木" ];
-    marin [ label="マリンアントネット" ];
-    chihaya [ label="チハヤフルメタル" ];
+    monoho [ label="モノ欲シザオ" fontcolor="#0000dd" ];
+    tururo [ label="ツルロ木" fontcolor="#007000" ];
+    marin [ label="マリンアントネット" fontcolor="#403000" ];
+    chihaya [ label="チハヤフルメタル" fontcolor="#990099" ];
 
     // ガチャ4
-    kibou [ label="キボウ" ];
+    kibou [ label="キボウ" fontcolor="#403000" ];
 
-    // 降臨設定
+    // 上級設定
     node [ color="#111122" style="solid,filled" fillcolor="#f0f0f6"];
 
     // 上級ステージ
-    // marugo [ label="マルゴシアス" ];
-    kerupi [ label="ケルピ威" ];
-    // sekume [ label="セク滅ト" ];
-    ramia [ label="ラミア弥陀仏" ];
-    // bihimo [ label="ビヒモスヤァ" ];
+    // marugo [ label="マルゴシアス" fontcolor="#cc0000" ];
+    kerupi [ label="ケルピ威" fontcolor="#0000dd" ];
+    // sekume [ label="セク滅ト" fontcolor="#007000" ];
+    ramia [ label="ラミア弥陀仏" fontcolor="#403000" ];
+    // bihimo [ label="ビヒモスヤァ" fontcolor="#990099" ];
+
+    // 降臨設定
+    // node [ color="#111122" style="solid,filled" fillcolor="#f0f0f6"];
 
     // 降臨1
-    suruto [ label="スルトーテム" ];
-    ribaru [ label="リバールキリー" ];
-    barau [ label="バラウールチル" ];
-    ajin [ label="アジンガーX" ];
-    sabuna [ label="サブナブック" ];
+    suruto [ label="スルトーテム" fontcolor="#cc0000" ];
+    ribaru [ label="リバールキリー" fontcolor="#0000dd" ];
+    barau [ label="バラウールチル" fontcolor="#007000" ];
+    ajin [ label="アジンガーX" fontcolor="#403000" ];
+    sabuna [ label="サブナブック" fontcolor="#990099" ];
 
     // 降臨2
-    tuin [ label="ツインロースタ" ];
-    tanza [ label="タンザナイト" ];
-    rindo [ label="リンドウブルム" ];
-    kinto [ label="キントウロボロス" ];
-    fein [ label="フェイントリル" ];
+    tuin [ label="ツインロースタ" fontcolor="#cc0000" ];
+    tanza [ label="タンザナイト" fontcolor="#0000dd" ];
+    rindo [ label="リンドウブルム" fontcolor="#007000" ];
+    kinto [ label="キントウロボロス" fontcolor="#403000" ];
+    fein [ label="フェイントリル" fontcolor="#990099" ];
 
     // 降臨3
-    tavana [ label="タヴァナルシス" ];
-    marai [ label="マー雷王"]
-    guren [ label="グレンテイル" ];
-    biako [ label="ビアッコ" ];
-    kyonshi [ label="キョン死ィ" ];
+    tavana [ label="タヴァナルシス" fontcolor="#cc0000" ];
+    marai [ label="マー雷王" fontcolor="#0000dd" ]
+    guren [ label="グレンテイル" fontcolor="#007000" ];
+    biako [ label="ビアッコ" fontcolor="#403000" ];
+    kyonshi [ label="キョン死ィ" fontcolor="#990099" ];
 
     // 降臨4
-    mehisu [ label="メ火ストフェレス" ];
-    suito [ label="すいトン" ];
-    urami [ label="ウラミ" ];
+    mehisu [ label="メ火ストフェレス" fontcolor="#cc0000" ];
+    suito [ label="すいトン" fontcolor="#0000dd" ];
+    urami [ label="ウラミ" fontcolor="#990099" ];
 
     // ガチャ1
     tomoe -> barau [ label="HP100%UP\nシールドブレイカー" ];
