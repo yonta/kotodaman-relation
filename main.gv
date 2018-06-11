@@ -117,7 +117,7 @@ digraph {
     rindo -> marai [ label="(満)獣キラー30%\nシールドブレイカー" ];
     fein -> biako [ label="ランダム6回攻撃\n(満)毒耐性50%" ];
     kinto -> fein [ label="全体攻撃\n獣キラー30%" ];
-    kinto -> urami [ label="き\n全体攻撃\n(満)毒耐性" ]
+    kinto -> urami [ label="き\n全体攻撃\n(満)毒耐性50%" ]
 
     // 降臨3
     tavana -> rindo [ label="(満)木50%軽減\nトゲガード" ];
