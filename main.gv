@@ -114,7 +114,7 @@ digraph {
     tuin -> guren [ label="獣キラー50%" ];
     tanza -> tavana [ label="チェンジガード\n火25%軽減" ];
     tanza -> mehisu [ label="(満)睡眠耐性50%\n火25%軽減" ];
-    rindo -> marai [ label="(満)獣キラー30%\nシールドブレイカー" ];
+    rindo -> marai [ label="(満)獣キラー50%\nシールドブレイカー" ];
     fein -> biako [ label="ランダム6回攻撃\n(満)毒耐性50%" ];
     kinto -> fein [ label="全体攻撃\n獣キラー30%" ];
     kinto -> urami [ label="き\n全体攻撃\n(満)毒耐性50%" ]
@@ -123,12 +123,12 @@ digraph {
     tavana -> rindo [ label="(満)木50%軽減\nトゲガード" ];
     marai -> suruto [ label="物キラー30%" ];
     guren -> tanza [ label="トゲガード\n物キラー30%" ];
-    biako -> sabuna [ label="ランダム6回攻撃\n(満)物キラー30%\nトゲガード" ];
+    biako -> sabuna [ label="ランダム6回攻撃\n(満)物キラー50%\nトゲガード" ];
     kyonshi -> kinto [ label="回復\n(満)光50%軽減\nトゲガード" ];
     kyonshi -> biako [ label="回復\n(満)光50%軽減" ];
 
     // 降臨4
-    mehisu -> guren [ label="全体攻撃\n(満)獣キラー30%" ];
-    suito -> tavana [ label="チェンジガード\n(満)英キラー30%" ];
+    mehisu -> guren [ label="全体攻撃\n(満)獣キラー50%" ];
+    suito -> tavana [ label="チェンジガード\n(満)英キラー50%" ];
     // urami -> [ label="" ];
 }
