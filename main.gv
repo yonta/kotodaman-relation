@@ -40,9 +40,9 @@ digraph {
 
     // 上級ステージ
     // marugo [ label="マルゴシアス" fontcolor="#cc0000" ];
-    kerupi [ label="ケルピ威" fontcolor="#0000dd" ];
+    // kerupi [ label="ケルピ威" fontcolor="#0000dd" ];
     // sekume [ label="セク滅ト" fontcolor="#007000" ];
-    ramia [ label="ラミア弥陀仏" fontcolor="#403000" ];
+    // ramia [ label="ラミア弥陀仏" fontcolor="#403000" ];
     // bihimo [ label="ビヒモスヤァ" fontcolor="#990099" ];
 
     // 降臨設定
@@ -100,14 +100,14 @@ digraph {
     kibou -> urami [ label="き\n全体攻撃\n毒耐性100%\nチェンジガード" ];
 
     // 上級クエスト
-    ramia -> urami [ label="全体攻撃\n(満)毒耐性70%\n闇50%軽減\nチェンジガード" ];
+    // ramia -> urami [ label="全体攻撃\n(満)毒耐性70%\n闇50%軽減\nチェンジガード" ];
 
     // 降臨1
     suruto -> barau [ label="HP100%UP\nシールドブレイカー" ];
     ribaru -> tuin [ label="回復\n(満)火50%軽減\nトゲガード" ];
     ribaru -> suruto [ label="回復\n(満)火50%軽減" ];
     barau -> ribaru [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
-    barau -> kerupi [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
+    // barau -> kerupi [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
     barau -> suito [ label="(満)毒耐性50%\n水25%軽減" ];
     // sabuna -> ajin [ label="睡眠耐性50%\nチェンジガード\n光25%軽減", style=dotted ];
     ajin -> kyonshi [ label="(満)睡眠耐性50%\nシールドブレイカー" ];
