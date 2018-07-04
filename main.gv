@@ -26,7 +26,7 @@ digraph {
 
     // ガチャ3
     monoho [ label="モノ欲シザオ" fontcolor="#0000dd" ];
-    tururo [ label="ツルロ木" fontcolor="#007000" ];
+    tsururo [ label="ツルロ木" fontcolor="#007000" ];
     marin [ label="マリンアントネット" fontcolor="#403000" ];
     chihaya [ label="チハヤフルメタル" fontcolor="#990099" ];
 
@@ -89,7 +89,7 @@ digraph {
 
     // ガチャ4
     monoho -> tavana [ label="チェンジガード\n英キラー50%" ];
-    tururo -> marai [ label="シールドブレイカー\n水50%軽減" ];
+    tsururo -> marai [ label="シールドブレイカー\n水50%軽減" ];
     marin -> kyonshi [ label="睡眠耐性50%\nシールドブレイカー\n霊キラー50%" ];
     chihaya -> ajin [ label="9回攻撃\n光50%軽減" ];
     chihaya -> biako [ label="ランダム9回攻撃\n毒耐性50%\n光50%軽減" ];
