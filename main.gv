@@ -14,23 +14,25 @@ digraph {
     giruga [ label="ギル亀ッシュ" fontcolor="#007000" ];
     yashari [ label="ヤシャリエル" fontcolor="#403000" ];
     ouro [ label="オウロラ" fontcolor="#990099" ];
+
+    // ガチャ2
     kodoku [ label="コドクエレブレ" fontcolor="#cc0000" ];
     haryu [ label="ハ竜ケーン" fontcolor="#0000dd" ];
     misute [ label="ミス摂ルティン" fontcolor="#007000" ];
     sarau [ label="サラウーマンダー" fontcolor="#403000" ];
     haimo [ label="ハイモデウス" fontcolor="#990099" ];
 
-    // ガチャ2
+    // ガチャ3
     // takami [ label="タカミオ結ビ" fontcolor="#cc0000" ];
     // kamio [ label="カミオ結ビ" fontcolor="#007000" ];
 
-    // ガチャ3
+    // ガチャ4
     monoho [ label="モノ欲シザオ" fontcolor="#0000dd" ];
     tsururo [ label="ツルロ木" fontcolor="#007000" ];
     marin [ label="マリンアントネット" fontcolor="#403000" ];
     chihaya [ label="チハヤフルメタル" fontcolor="#990099" ];
 
-    // ガチャ4
+    // ガチャ5
     kibou [ label="キボウ" fontcolor="#403000" ];
 
     // 上級設定
@@ -80,7 +82,7 @@ digraph {
     ouro -> ajin [ label="9回攻撃\nチェンジガード"];
     ouro -> biako [ label="9回攻撃" ];
 
-    // ガチャ3
+    // ガチャ2
     kodoku -> rindo [ label="ATK100%UP\nトゲガード" ];
     haryu -> tuin [ label="トゲガード\n獣キラー50%"];
     misute -> tanza [ label="トゲガード\n水50%軽減" ];
