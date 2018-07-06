@@ -35,6 +35,10 @@ digraph {
     // ガチャ5
     kibou [ label="キボウ" fontcolor="#403000" ];
 
+    // ガチャ6
+    // ai [ label="アイ" fontcolor="#403000" ];
+    // tsurami [ label="ツラミ" fontcolor="#990099" ];
+
     // 上級設定
     node [ color="#111122" style="solid,filled" fillcolor="#f0f0f6"];
 
