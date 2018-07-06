@@ -39,6 +39,10 @@ digraph {
     // ai [ label="アイ" fontcolor="#403000" ];
     // tsurami [ label="ツラミ" fontcolor="#990099" ];
 
+    // ガチャ7
+    // shinsha [ label="シンシャク" fontcolor="#0000dd" ];
+    sakushu [ label="サクシュ" fontcolor="#990099" ];
+
     // 上級設定
     node [ color="#111122" style="solid,filled" fillcolor="#f0f0f6"];
 
@@ -78,13 +82,16 @@ digraph {
     suito [ label="すいトン" fontcolor="#0000dd" ];
     urami [ label="ウラミ" fontcolor="#990099" ];
 
+    // 降臨5
+    purachi [ label="プラチナーガ" fontcolor="#007000" ];
+    ketsua [ label="ケツァルコロナ" fontcolor="#403000" ];
+
     // ガチャ1
     tomoe -> barau [ label="HP100%UP\nシールドブレイカー" ];
     torito -> suruto [ label="単体攻撃\n物キラー50%" ];
     giruga -> ribaru [ label="ATK100%UP\n全体攻撃" ];
     yashari -> sabuna [ label="トゲガード\n物キラー50%" ];
-    ouro -> ajin [ label="9回攻撃\nチェンジガード"];
-    ouro -> biako [ label="9回攻撃" ];
+    ouro -> ajin [ label="ランダム9回攻撃\nチェンジガード"];
 
     // ガチャ2
     kodoku -> rindo [ label="ATK100%UP\nトゲガード" ];
@@ -97,11 +104,14 @@ digraph {
     monoho -> tavana [ label="チェンジガード\n英キラー50%" ];
     tsururo -> marai [ label="シールドブレイカー\n水50%軽減" ];
     marin -> kyonshi [ label="睡眠耐性50%\nシールドブレイカー\n霊キラー50%" ];
-    chihaya -> ajin [ label="9回攻撃\n光50%軽減" ];
     chihaya -> biako [ label="ランダム9回攻撃\n毒耐性50%\n光50%軽減" ];
+    chihaya -> ketsua [ label="ランダム9回攻撃\n光50%軽減" ];
 
     // ガチャ5
     kibou -> urami [ label="き\n全体攻撃\n毒耐性100%\nチェンジガード" ];
+
+    // ガチャ7
+    sakushu -> biako [ label="毒耐性50%\n8回攻撃" ];
 
     // 上級クエスト
     // ramia -> urami [ label="全体攻撃\n(満)毒耐性70%\n闇50%軽減\nチェンジガード" ];
@@ -109,11 +119,10 @@ digraph {
     // 降臨1
     suruto -> barau [ label="HP100%UP\nシールドブレイカー" ];
     ribaru -> tuin [ label="回復\n(満)火50%軽減\nトゲガード" ];
-    ribaru -> suruto [ label="回復\n(満)火50%軽減" ];
     barau -> ribaru [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
     // barau -> kerupi [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
     barau -> suito [ label="(満)毒耐性50%\n水25%軽減" ];
-    // sabuna -> ajin [ label="睡眠耐性50%\nチェンジガード\n光25%軽減", style=dotted ];
+    sabuna -> ketsua [ label="(満)睡眠耐性50%\n光25%軽減" ];
     ajin -> kyonshi [ label="(満)睡眠耐性50%\nシールドブレイカー" ];
 
     // 降臨2
@@ -127,14 +136,17 @@ digraph {
 
     // 降臨3
     tavana -> rindo [ label="(満)木50%軽減\nトゲガード" ];
-    marai -> suruto [ label="物キラー30%" ];
+    marai -> suruto [ label="単体攻撃\n物キラー30%" ];
     guren -> tanza [ label="トゲガード\n物キラー30%" ];
     biako -> sabuna [ label="ランダム6回攻撃\n(満)物キラー50%\nトゲガード" ];
     kyonshi -> kinto [ label="回復\n(満)光50%軽減\nトゲガード" ];
-    kyonshi -> biako [ label="回復\n(満)光50%軽減" ];
 
     // 降臨4
     mehisu -> guren [ label="全体攻撃\n(満)獣キラー50%" ];
     suito -> tavana [ label="チェンジガード\n(満)英キラー50%" ];
     // urami -> [ label="" ];
+
+    // 降臨5
+    purachi -> marai [ label="獣キラー30%\nシールドブレイカー" ];
+    ketsua -> kyonshi [ label="(満)霊キラー50%\nシールドブレイカー" ];
 }
