@@ -121,7 +121,6 @@ digraph {
     ribaru -> tuin [ label="回復\n(満)火50%軽減\nトゲガード" ];
     barau -> ribaru [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
     // barau -> kerupi [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
-    barau -> suito [ label="(満)毒耐性50%\n水25%軽減" ];
     sabuna -> ketsua [ label="(満)睡眠耐性50%\n光25%軽減" ];
     ajin -> kyonshi [ label="(満)睡眠耐性50%\nシールドブレイカー" ];
 
