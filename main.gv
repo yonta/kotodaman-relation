@@ -148,5 +148,6 @@ digraph {
 
     // 降臨5
     purachi -> marai [ label="獣キラー30%\nシールドブレイカー" ];
+    purachi -> suito [ label="(満)毒耐性50%\n獣キラー30%" ];
     ketsua -> kyonshi [ label="(満)霊キラー50%\nシールドブレイカー" ];
 }
