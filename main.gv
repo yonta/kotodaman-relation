@@ -94,7 +94,7 @@ digraph {
     ouro -> ajin [ label="ランダム9回攻撃\nチェンジガード"];
 
     // ガチャ2
-    kodoku -> rindo [ label="ATK100%UP\nトゲガード" ];
+    kodoku -> rindo [ label="ATK100%UP\nトゲガード\n龍キラー50%" ];
     haryu -> tuin [ label="トゲガード\n獣キラー50%"];
     misute -> tanza [ label="トゲガード\n水50%軽減" ];
     sarau -> fein [ label="闇50%軽減\n獣キラー50%" ];
