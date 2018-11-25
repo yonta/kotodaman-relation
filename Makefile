@@ -1,4 +1,6 @@
-all: kotodaman.png kotodaman_makyu.png
+targets=kotodaman.png kotodaman_makyu.png
+
+all: $(targets)
 
 kotodaman.png: main.gv
 	dot -Tpng $< > $@
@@ -6,4 +8,7 @@ kotodaman.png: main.gv
 kotodaman_makyu.png: main_makyu.gv
 	dot -Tpng $< > $@
 
-phony: all copy
+clean:
+	rm -rf $(targets)
+
+phony: all clean
