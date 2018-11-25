@@ -5,118 +5,193 @@ digraph {
     // settings for nodes
     node [ shape = box ];
 
-    // ガチャ設定
+    //-------------------------------------------------------
+    // ガチャキャラ
+    //-------------------------------------------------------
+
+    // 設定
     node [ color="#1c0e0e" style="bold,filled" fillcolor="#fdfde4" ];
 
-    // ガチャ1
     tomoe [ label="トモエ御炎" fontcolor="#cc0000" ];
     torito [ label="トリ首領" fontcolor="#0000dd" ];
     giruga [ label="ギル亀ッシュ" fontcolor="#007000" ];
     yashari [ label="ヤシャリエル" fontcolor="#403000" ];
     ouro [ label="オウロラ" fontcolor="#990099" ];
 
-    // ガチャ2
     kodoku [ label="コドクエレブレ" fontcolor="#cc0000" ];
     haryu [ label="ハ竜ケーン" fontcolor="#0000dd" ];
     misute [ label="ミス摂ルティン" fontcolor="#007000" ];
     sarau [ label="サラウーマンダー" fontcolor="#403000" ];
     haimo [ label="ハイモデウス" fontcolor="#990099" ];
 
-    // ガチャ3
     // takami [ label="タカミオ結ビ" fontcolor="#cc0000" ];
     // kamio [ label="カミオ結ビ" fontcolor="#007000" ];
 
-    // ガチャ4
     monoho [ label="モノ欲シザオ" fontcolor="#0000dd" ];
     tsururo [ label="ツルロ木" fontcolor="#007000" ];
     marin [ label="マリンアントネット" fontcolor="#403000" ];
     chihaya [ label="チハヤフルメタル" fontcolor="#990099" ];
 
-    // ガチャ5
     kibou [ label="キボウ" fontcolor="#403000" ];
 
-    // ガチャ6
     // ai [ label="アイ" fontcolor="#403000" ];
     // tsurami [ label="ツラミ" fontcolor="#990099" ];
 
-    // ガチャ7
     // shinsha [ label="シンシャク" fontcolor="#0000dd" ];
     sakushu [ label="サクシュ" fontcolor="#990099" ];
 
-    // 上級設定
+    // yataka [ label="ヤ宝ス" fontcolor="#990099" ];
+
+    // yande [ label="ヤンでれヴィアタン" fontcolor="#0000dd" ];
+    tsukiga [ label="ツキガ綺麗デウスネ" fontcolor="#403000" ];
+
+    // nchumi [ label="ンチュミセイメイ" fontcolor="#cc0000" ];
+
+    // ribera [ label="リベラルセポネ" fontcolor="#cc0000" ];
+    hapuro [ label="ハープロメテウス" fontcolor="#990099" ];
+
+    tokime [ label="トキメキ" fontcolor="#007000" ];
+
+    chitose [ label="チトセレイン" fontcolor="#cc0000" ];
+    kurau [ label="クラウンケン" fontcolor="#0000dd" ];
+
+    // yoyoyo [ label="ヨヨヨミ" fontcolor="#0000dd" ];
+    // yomotsu [ label="ヨモツヒラサカ" fontcolor="#990099" ];
+
+    urei [ label="ウレイア" fontcolor="#007000" ];
+
+    // ifui [ label="イフゥイン" fontcolor="#990099" ];
+
+    horayu [ label="ホラ雪姫" fontcolor="#cc0000" ];
+    choshin [ label="チョウ身デレラ" fontcolor="#0000dd" ];
+    // fumin [ label="フ眠の森の美女" fontcolor="#403000" ];
+    kiyu [ label="キユウ" fontcolor="#0000dd" ];
+
+    nkamu [ label="ンカムイデア" fontcolor="#0000dd" ];
+    // nrusha [ label="ンルシャナユタ" fontcolor="#007000" ];
+
+    // kishuyu [ label="キ襲ユ" fontcolor="#cc0000" ];
+    // risou [ label="リ想ソウ" fontcolor="#990099" ];
+
+    //-------------------------------------------------------
+    // 上級15面キャラ
+    //-------------------------------------------------------
+
+    // 設定
     node [ color="#111122" style="solid,filled" fillcolor="#f0f0f6"];
 
-    // 上級ステージ
     // marugo [ label="マルゴシアス" fontcolor="#cc0000" ];
     // kerupi [ label="ケルピ威" fontcolor="#0000dd" ];
     // sekume [ label="セク滅ト" fontcolor="#007000" ];
     // ramia [ label="ラミア弥陀仏" fontcolor="#403000" ];
     // bihimo [ label="ビヒモスヤァ" fontcolor="#990099" ];
 
-    // 降臨設定
+    //-------------------------------------------------------
+    // 降臨キャラ
+    //-------------------------------------------------------
+
+    // 設定
     // node [ color="#111122" style="solid,filled" fillcolor="#f0f0f6"];
 
-    // 降臨1
     suruto [ label="スルトーテム" fontcolor="#cc0000" ];
     ribaru [ label="リバールキリー" fontcolor="#0000dd" ];
     barau [ label="バラウールチル" fontcolor="#007000" ];
     ajin [ label="アジンガーX" fontcolor="#403000" ];
     sabuna [ label="サブナブック" fontcolor="#990099" ];
 
-    // 降臨2
     tuin [ label="ツインロースタ" fontcolor="#cc0000" ];
     tanza [ label="タンザナイト" fontcolor="#0000dd" ];
     rindo [ label="リンドウブルム" fontcolor="#007000" ];
     kinto [ label="キントウロボロス" fontcolor="#403000" ];
     fein [ label="フェイントリル" fontcolor="#990099" ];
 
-    // 降臨3
     tavana [ label="タヴァナルシス" fontcolor="#cc0000" ];
     marai [ label="マー雷王" fontcolor="#0000dd" ]
     guren [ label="グレンテイル" fontcolor="#007000" ];
     biako [ label="ビアッコ" fontcolor="#403000" ];
     kyonshi [ label="キョン死ィ" fontcolor="#990099" ];
 
-    // 降臨4
     mehisu [ label="メ火ストフェレス" fontcolor="#cc0000" ];
     suito [ label="すいトン" fontcolor="#0000dd" ];
     urami [ label="ウラミ" fontcolor="#990099" ];
 
-    // 降臨5
     purachi [ label="プラチナーガ" fontcolor="#007000" ];
     ketsua [ label="ケツァルコロナ" fontcolor="#403000" ];
 
-    // ガチャ1
+    sebun [ label="セブン真珠" fontcolor="#990099" ];
+
+    keiro [ label="ケ異論" fontcolor="#cc0000" ];
+
+    kanashi [ label="カナシミ" fontcolor="#0000dd" ];
+
+    raita [ label="ライタートスク" fontcolor="#0000dd" ];
+    koboku [ label="コボクドラ識ル" fontcolor="#007000" ];
+    tenpa [ label="テンパティとスコル" fontcolor="#403000" ];
+
+    yuen [ label="ユウエンドラゴン" fontcolor="#0000dd" ];
+    raran [ label="ララン犬シュタイン" fontcolor="#007000" ];
+    // robakyu [ label="ロバキュラ" fontcolor="#990099" ];
+
+    ikari [ label="イカリ" fontcolor="#cc0000" ];
+
+    onryo [ label="オン霊フ" fontcolor="#cc0000" ];
+    rancho [ label="ラン調カク" fontcolor="#0000dd" ];
+    // hidou [ label="ヒ道タク" fontcolor="#990099" ];
+
+    //-------------------------------------------------------
+    // ガチャキャラ適正
+    //-------------------------------------------------------
+
     tomoe -> barau [ label="HP100%UP\nシールドブレイカー" ];
     torito -> suruto [ label="単体攻撃\n物キラー50%" ];
     giruga -> ribaru [ label="ATK100%UP\n全体攻撃" ];
     yashari -> sabuna [ label="トゲガード\n物キラー50%" ];
     ouro -> ajin [ label="ランダム9回攻撃\nチェンジガード"];
 
-    // ガチャ2
     kodoku -> rindo [ label="ATK100%UP\nトゲガード\n龍キラー50%" ];
     haryu -> tuin [ label="トゲガード\n獣キラー50%"];
     misute -> tanza [ label="トゲガード\n水50%軽減" ];
     sarau -> fein [ label="闇50%軽減\n獣キラー50%" ];
     haimo -> kinto [ label="光50%軽減\n龍キラー50%" ];
 
-    // ガチャ4
     monoho -> tavana [ label="チェンジガード\n英キラー50%" ];
     tsururo -> marai [ label="シールドブレイカー\n水50%軽減" ];
+    tsururo -> kanashi [ label="全体攻撃\n睡眠耐性50%\nシールドブレイカー" ];
     marin -> kyonshi [ label="睡眠耐性50%\nシールドブレイカー\n霊キラー50%" ];
     chihaya -> biako [ label="ランダム9回攻撃\n毒耐性50%\n光50%軽減" ];
     chihaya -> ketsua [ label="ランダム9回攻撃\n光50%軽減" ];
 
-    // ガチャ5
     kibou -> urami [ label="き\n全体攻撃\n毒耐性100%\nチェンジガード" ];
 
-    // ガチャ7
     sakushu -> biako [ label="毒耐性50%\n8回攻撃" ];
 
-    // 上級クエスト
+    tsukiga -> kyonshi [ label="睡眠耐性50%\nシールドブレイカー" ];
+
+    tokime -> kanashi [ label="睡眠耐性100%\nチェンジガード" ];
+
+    chitose -> purachi [ label="チェンジガード\n龍キラー50%" ];
+    kurau -> mehisu [ label="睡眠耐性50%\n火50%軽減" ];
+
+    urei -> kanashi [ label="チェンジガード\nシールドブレイカー" ];
+
+    horayu -> koboku [ label="睡眠耐性50%\n獣キラー50%" ];
+    choshin -> keiro [ label="チェンジガード\n火50%軽減" ];
+    kiyu -> ikari [ label="睡眠耐性100%\nトゲガード" ];
+
+    nkamu -> ikari [ label="全体攻撃\nトゲガード\nシールドブレイカー" ];
+
+    //-------------------------------------------------------
+    // 上級15面キャラ適正
+    //-------------------------------------------------------
+
+    // sekume -> kanashi [ label="全体攻撃\n（満）睡眠耐性70%\nチェンジガード" ];
+    // kerupi -> ikari [ label="全体攻撃\nシールドブレイカー" ];
     // ramia -> urami [ label="全体攻撃\n(満)毒耐性70%\n闇50%軽減\nチェンジガード" ];
 
-    // 降臨1
+    //-------------------------------------------------------
+    // 降臨キャラ適正
+    //-------------------------------------------------------
+
     suruto -> barau [ label="HP100%UP\nシールドブレイカー" ];
     ribaru -> tuin [ label="回復\n(満)火50%軽減\nトゲガード" ];
     barau -> ribaru [ label="全体攻撃\n水25%軽減\n魔キラー30%" ];
@@ -124,8 +199,7 @@ digraph {
     sabuna -> ketsua [ label="(満)睡眠耐性50%\n光25%軽減" ];
     ajin -> kyonshi [ label="(満)睡眠耐性50%\nシールドブレイカー" ];
 
-    // 降臨2
-    tuin -> guren [ label="獣キラー50%" ];
+    // tuin -> guren [ label="獣キラー50%" ];
     tanza -> tavana [ label="チェンジガード\n火25%軽減" ];
     tanza -> mehisu [ label="(満)睡眠耐性50%\n火25%軽減" ];
     rindo -> marai [ label="(満)獣キラー50%\nシールドブレイカー" ];
@@ -133,20 +207,33 @@ digraph {
     kinto -> fein [ label="全体攻撃\n獣キラー30%" ];
     kinto -> urami [ label="き\n全体攻撃\n(満)毒耐性50%" ]
 
-    // 降臨3
     tavana -> rindo [ label="(満)木50%軽減\nトゲガード" ];
     marai -> suruto [ label="単体攻撃\n物キラー30%" ];
     guren -> tanza [ label="トゲガード\n物キラー30%" ];
     biako -> sabuna [ label="ランダム6回攻撃\n(満)物キラー50%\nトゲガード" ];
     kyonshi -> kinto [ label="回復\n(満)光50%軽減\nトゲガード" ];
 
-    // 降臨4
-    mehisu -> guren [ label="全体攻撃\n(満)獣キラー50%" ];
+    mehisu -> guren [ label="め\n全体攻撃\n(満)獣キラー50%" ];
     suito -> tavana [ label="チェンジガード\n(満)英キラー50%" ];
     // urami -> [ label="" ];
 
-    // 降臨5
     purachi -> marai [ label="獣キラー30%\nシールドブレイカー" ];
     purachi -> suito [ label="(満)毒耐性50%\n獣キラー30%" ];
     ketsua -> kyonshi [ label="(満)霊キラー50%\nシールドブレイカー" ];
+
+    hapuro -> yuen [ label="毒耐性50%\nシールドブレイカー" ];
+
+    keiro -> purachi [ label="（満）龍キラー30%\nチェンジガード" ];
+
+    // kanashi -> ikari [ label="（満）睡眠耐性60%" ];
+
+    raita -> keiro [ label="獣キラー30%\nチェンジガード" ];
+    koboku -> raita [ label="（満）獣キラー50%\n弱体ガード" ];
+    tenpa -> sebun [ label="英キラー30%\n弱体ガード" ];
+
+    purachi -> yuen [ label="（満）毒耐性50%\nシールドブレイカー" ];
+    raran -> yuen [ label="（満）神キラー50%\nシールドブレイカー" ];
+    yuen -> ikari [ label="（満）睡眠耐性70%\n獣キラー30%\nトゲガード" ];
+
+    rancho -> onryo [ label="全体攻撃\n弱体ガード\n（満）霊キラー50%" ];
 }
