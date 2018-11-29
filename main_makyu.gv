@@ -14,7 +14,7 @@ digraph {
 
     tsururo [ label="ツルロ木" fontcolor="#007000" ];
     kibou [ label="キボウ" fontcolor="#403000" ];
-    hapuro [ label="ハープロメテウス" fontcolor="#990099" ];
+    hapuro [ label="ハープロメテウス" fontcolor="#007000" ];
     tokime [ label="トキメキ" fontcolor="#007000" ];
     urei [ label="ウレイア" fontcolor="#007000" ];
     kiyu [ label="キユウ" fontcolor="#0000dd" ];
