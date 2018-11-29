@@ -12,8 +12,10 @@ digraph {
     // 設定
     node [ color="#1c0e0e" style="bold,filled" fillcolor="#fdfde4" ];
 
+    haryu [ label="ハ竜ケーン" fontcolor="#0000dd" ];
     tsururo [ label="ツルロ木" fontcolor="#007000" ];
     kibou [ label="キボウ" fontcolor="#403000" ];
+    ai [ label="アイ" fontcolor="#403000" ];
     hapuro [ label="ハープロメテウス" fontcolor="#007000" ];
     tokime [ label="トキメキ" fontcolor="#007000" ];
     urei [ label="ウレイア" fontcolor="#007000" ];
@@ -52,8 +54,10 @@ digraph {
     // ガチャキャラ適正
     //-------------------------------------------------------
 
+    haryu -> ikari [ label="全体攻撃\nトゲガード\n獣キラー100%" ];
     tsururo -> kanashi [ label="全体攻撃\n睡眠耐性50%\nシールドブレイカー" ];
     kibou -> urami [ label="き\n全体攻撃\n毒耐性100%\nチェンジガード" ];
+    ai -> urami [ label="全体攻撃\nトゲガード" ];
     hapuro -> yuen [ label="毒耐性50%\nシールドブレイカー" ];
     tokime -> kanashi [ label="睡眠耐性100%\nチェンジガード" ];
     urei -> kanashi [ label="チェンジガード\nシールドブレイカー" ];
