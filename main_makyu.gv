@@ -12,6 +12,7 @@ digraph {
     // 設定
     node [ color="#1c0e0e" style="bold,filled" fillcolor="#fdfde4" ];
 
+    kodoku [ label="コドクエレブレ" fontcolor="#cc0000" ];
     haryu [ label="ハ竜ケーン" fontcolor="#0000dd" ];
     tsururo [ label="ツルロ木" fontcolor="#007000" ];
     kibou [ label="キボウ" fontcolor="#403000" ];
@@ -19,8 +20,12 @@ digraph {
     hapuro [ label="ハープロメテウス" fontcolor="#007000" ];
     tokime [ label="トキメキ" fontcolor="#007000" ];
     urei [ label="ウレイア" fontcolor="#007000" ];
+    horayu [ label="ホラ雪姫" fontcolor="#cc0000" ];
     kiyu [ label="キユウ" fontcolor="#0000dd" ];
     nkamu [ label="ンカムイデア" fontcolor="#0000dd" ];
+    kishuyu [ label="キ襲ユ" fontcolor="#cc0000" ];
+    ripuku [ label="リップク" fontcolor="#cc0000" ];
+    shumatsu [ label="シュウマツテイル" fontcolor="#cc0000" ];
 
     //-------------------------------------------------------
     // 上級15面キャラ
@@ -49,6 +54,9 @@ digraph {
     raran [ label="ララン犬シュタイン" fontcolor="#007000" ];
     kanashi [ label="カナシミ" fontcolor="#0000dd" ];
     ikari [ label="イカリ" fontcolor="#cc0000" ];
+    onryo [ label="オン霊フ" fontcolor="#cc0000" ];
+    rancho [ label="ラン調カク" fontcolor="#0000dd" ];
+    yoroko [ label="ヨロコビ" fontcolor="#007000" ];
 
     //-------------------------------------------------------
     // ガチャキャラ適正
@@ -63,6 +71,11 @@ digraph {
     urei -> kanashi [ label="チェンジガード\nシールドブレイカー" ];
     kiyu -> ikari [ label="睡眠耐性100%\nトゲガード" ];
     nkamu -> ikari [ label="全体攻撃\nトゲガード\nシールドブレイカー" ];
+    kodoku -> yoroko [ label="全体攻撃\nトゲガード" ];
+    horayu -> yoroko [ label="全体攻撃\n獣キラー50%\n弱体ガード" ];
+    kishuyu -> yoroko [ label="呪い耐性50%\n弱体ガード" ];
+    ripuku -> yoroko [ label="呪い耐性100%\n弱体ガード" ];
+    shumatsu -> yoroko [ label="弱体ガード\nトゲガード" ];
 
     //-------------------------------------------------------
     // 上級15面キャラ適正
@@ -81,4 +94,10 @@ digraph {
     yuen -> ikari [ label="（満）睡眠耐性70%\n獣キラー30%\nトゲガード" ];
     raran -> yuen [ label="（満）神キラー50%\nシールドブレイカー" ];
     kanashi -> ikari [ label="（満）睡眠耐性60%" ];
+    rancho -> onryo [ label="全体攻撃\n弱体ガード\n（満）霊キラー50%" ];
+    ikari -> yoroko [ label="（満）呪い耐性60%\n弱体ガード" ];
+    onryo -> yoroko [ label="（満）呪い耐性70%\n弱体ガード\n木25%軽減" ];
+    // marugo-> yoroko [ label="全体攻撃\nトゲガード" ];
+    // mehisu-> yoroko [ label="全体攻撃\n（満）獣キラー50%" ];
+    yoroko -> kanashi [ label="（満）睡眠耐性60%" ];
 }

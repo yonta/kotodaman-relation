@@ -73,6 +73,9 @@ digraph {
     // kishuyu [ label="キ襲ユ" fontcolor="#cc0000" ];
     // risou [ label="リ想ソウ" fontcolor="#990099" ];
 
+    // ripuku [ label="リップク" fontcolor="#cc0000" ];
+    // shumatsu [ label="シュウマツテイル" fontcolor="#cc0000" ];
+
     //-------------------------------------------------------
     // 上級15面キャラ
     //-------------------------------------------------------
@@ -134,9 +137,11 @@ digraph {
 
     // ikari [ label="イカリ" fontcolor="#cc0000" ];
 
-    onryo [ label="オン霊フ" fontcolor="#cc0000" ];
-    rancho [ label="ラン調カク" fontcolor="#0000dd" ];
+    // onryo [ label="オン霊フ" fontcolor="#cc0000" ];
+    // rancho [ label="ラン調カク" fontcolor="#0000dd" ];
     // hidou [ label="ヒ道タク" fontcolor="#990099" ];
+
+    // yoroko [ label="ヨロコビ" fontcolor="#007000" ];
 
     //-------------------------------------------------------
     // ガチャキャラ適正
@@ -210,6 +215,4 @@ digraph {
     raita -> keiro [ label="獣キラー30%\nチェンジガード" ];
     koboku -> raita [ label="（満）獣キラー50%\n弱体ガード" ];
     tenpa -> sebun [ label="英キラー30%\n弱体ガード" ];
-
-    rancho -> onryo [ label="全体攻撃\n弱体ガード\n（満）霊キラー50%" ];
 }
