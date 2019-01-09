@@ -20,6 +20,7 @@ digraph {
     hapuro [ label="ハープロメテウス" fontcolor="#007000" ];
     tokime [ label="トキメキ" fontcolor="#007000" ];
     urei [ label="ウレイア" fontcolor="#007000" ];
+    ifui [ label="イフゥイン" fontcolor="#990099" ];
     horayu [ label="ホラ雪姫" fontcolor="#cc0000" ];
     kiyu [ label="キユウ" fontcolor="#0000dd" ];
     nkamu [ label="ンカムイデア" fontcolor="#0000dd" ];
@@ -57,6 +58,10 @@ digraph {
     onryo [ label="オン霊フ" fontcolor="#cc0000" ];
     rancho [ label="ラン調カク" fontcolor="#0000dd" ];
     yoroko [ label="ヨロコビ" fontcolor="#007000" ];
+    nejue [ label="ネージュエル" fontcolor="#cc0000" ];
+    kubaru [ label="クバルフ" fontcolor="#403000" ];
+    yakushi [ label="ヤク獅子" fontcolor="#403000" ];
+    miyabi [ label="ミヤビ凧" fontcolor="#990099" ];
 
     //-------------------------------------------------------
     // ガチャキャラ適正
@@ -97,7 +102,9 @@ digraph {
     rancho -> onryo [ label="全体攻撃\n弱体ガード\n（満）霊キラー50%" ];
     ikari -> yoroko [ label="（満）呪い耐性60%\n弱体ガード" ];
     onryo -> yoroko [ label="（満）呪い耐性70%\n弱体ガード\n木25%軽減" ];
-    // marugo-> yoroko [ label="全体攻撃\nトゲガード" ];
-    // mehisu-> yoroko [ label="全体攻撃\n（満）獣キラー50%" ];
     yoroko -> kanashi [ label="（満）睡眠耐性60%" ];
+    nejue -> yoroko [ label="呪い耐性50%（満）\n呪いカット\n弱体ガード" ];
+    ifui -> kubaru [ label="シールドブレイカー\nチェンジガード" ];
+    kubaru -> miyabi [ label="ウォールブレイカー\n魔キラー30%\n闇30%軽減" ];
+    yakushi -> miyabi [ label="毒耐性50%（満）\nウォールブレイカー\n魔キラー30%" ];
 }
