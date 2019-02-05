@@ -29,6 +29,8 @@ digraph {
     shumatsu [ label="シュウマツテイル" fontcolor="#cc0000" ];
     inyan [ label="イーニャン" fontcolor="#0000dd" ];
     uon [ label="ウォン＝クーロン" fontcolor="#007000" ];
+    koui [ label="コウイ" fontcolor="#403000" ];
+    hakujo [ label="ハクジョウ" fontcolor="#990099" ];
 
     //-------------------------------------------------------
     // 上級15面キャラ
@@ -64,6 +66,7 @@ digraph {
     kubaru [ label="クバルフ" fontcolor="#403000" ];
     yakushi [ label="ヤク獅子" fontcolor="#403000" ];
     miyabi [ label="ミヤビ凧" fontcolor="#990099" ];
+    yasashi [ label="ヤサシサ" fontcolor="#403000" ];
 
     //-------------------------------------------------------
     // ガチャキャラ適正
@@ -85,6 +88,8 @@ digraph {
     shumatsu -> yoroko [ label="弱体ガード\nトゲガード" ];
     inyan -> yuen [ label="ドロー時毒回復" ];
     uon -> ikari [ label="トゲガード\nドロー時睡眠回復" ];
+    koui -> yasashi [ label="光闇能力UP・呪い耐性100%\nウォールブレイカー\n魔キラー50%" ];
+    hakujo -> yasashi [ label="光闇能力UP・呪い耐性100%\nチェンジガード\n神キラー50%" ];
 
     //-------------------------------------------------------
     // 上級15面キャラ適正
@@ -111,4 +116,7 @@ digraph {
     ifui -> kubaru [ label="シールドブレイカー\nチェンジガード" ];
     kubaru -> miyabi [ label="ウォールブレイカー\n魔キラー30%\n闇25%軽減" ];
     yakushi -> miyabi [ label="（満）毒耐性50%\nウォールブレイカー\n魔キラー30%" ];
+    yakushi -> yasashi [ label="や\nウォールブレイカー\n魔キラー30%" ];
+    kubaru -> yasashi [ label="く\n（満）呪い耐性70%\nウォールブレイカー\n魔キラー30%\n闇25%軽減" ];
+    miyabi -> yasashi [ label="（満）呪い耐性70%\nウォールブレイカー\n神キラー30%\n光25%軽減" ];
 }

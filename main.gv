@@ -82,6 +82,12 @@ digraph {
     // inyan [ label="イーニャン" fontcolor="#0000dd" ];
     // uon [ label="ウォン＝クーロン" fontcolor="#007000" ];
 
+    // jutemu [ label="ジュテームーン" fontcolor="#0000dd" ];
+    // gurama [ label="グラマリー" fontcolor="#990099" ];
+
+    // koui [ label="コウイ" fontcolor="#403000" ];
+    // hakujo [ label="ハクジョウ" fontcolor="#990099" ];
+
     //-------------------------------------------------------
     // 上級15面キャラ
     //-------------------------------------------------------
@@ -156,6 +162,8 @@ digraph {
     // hidaru [ label="ヒダル猪" fontcolor="#0000dd" ];
     yakushi [ label="ヤク獅子" fontcolor="#403000" ];
     // miyabi [ label="ミヤビ凧" fontcolor="#990099" ];
+
+    // yasashi [ label="ヤサシサ" fontcolor="#403000" ];
 
     //-------------------------------------------------------
     // ガチャキャラ適正
