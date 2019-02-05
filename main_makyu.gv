@@ -88,7 +88,7 @@ digraph {
 
     sekume -> kanashi [ label="全体攻撃\n（満）睡眠耐性70%\nチェンジガード" ];
     kerupi -> ikari [ label="全体攻撃\nシールドブレイカー" ];
-    ramia -> urami [ label="全体攻撃\n(満)毒耐性70%\n闇50%軽減\nチェンジガード" ];
+    ramia -> urami [ label="全体攻撃\n（満）毒耐性70%\n闇50%軽減\nチェンジガード" ];
 
     //-------------------------------------------------------
     // 降臨キャラ適正
@@ -103,8 +103,8 @@ digraph {
     ikari -> yoroko [ label="（満）呪い耐性60%\n弱体ガード" ];
     onryo -> yoroko [ label="（満）呪い耐性70%\n弱体ガード\n木25%軽減" ];
     yoroko -> kanashi [ label="（満）睡眠耐性60%" ];
-    nejue -> yoroko [ label="呪い耐性50%（満）\n呪いカット\n弱体ガード" ];
+    nejue -> yoroko [ label="（満）呪い耐性50%\n呪いカット\n弱体ガード" ];
     ifui -> kubaru [ label="シールドブレイカー\nチェンジガード" ];
     kubaru -> miyabi [ label="ウォールブレイカー\n魔キラー30%\n闇30%軽減" ];
-    yakushi -> miyabi [ label="毒耐性50%（満）\nウォールブレイカー\n魔キラー30%" ];
+    yakushi -> miyabi [ label="（満）毒耐性50%\nウォールブレイカー\n魔キラー30%" ];
 }
