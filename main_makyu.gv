@@ -27,6 +27,8 @@ digraph {
     kishuyu [ label="キ襲ユ" fontcolor="#cc0000" ];
     ripuku [ label="リップク" fontcolor="#cc0000" ];
     shumatsu [ label="シュウマツテイル" fontcolor="#cc0000" ];
+    inyan [ label="イーニャン" fontcolor="#0000dd" ];
+    uon [ label="ウォン＝クーロン" fontcolor="#007000" ];
 
     //-------------------------------------------------------
     // 上級15面キャラ
@@ -81,6 +83,8 @@ digraph {
     kishuyu -> yoroko [ label="呪い耐性50%\n弱体ガード" ];
     ripuku -> yoroko [ label="呪い耐性100%\n弱体ガード" ];
     shumatsu -> yoroko [ label="弱体ガード\nトゲガード" ];
+    inyan -> yuen [ label="ドロー時毒回復" ];
+    uon -> ikari [ label="トゲガード\nドロー時睡眠回復" ];
 
     //-------------------------------------------------------
     // 上級15面キャラ適正

@@ -76,6 +76,12 @@ digraph {
     // ripuku [ label="リップク" fontcolor="#cc0000" ];
     // shumatsu [ label="シュウマツテイル" fontcolor="#cc0000" ];
 
+    // noeru [ label="ノエル" fontcolor="#007000" ];
+    // meruku [ label="メリクリ" fontcolor="#403000" ];
+
+    // inyan [ label="イーニャン" fontcolor="#0000dd" ];
+    // uon [ label="ウォン＝クーロン" fontcolor="#007000" ];
+
     //-------------------------------------------------------
     // 上級15面キャラ
     //-------------------------------------------------------
