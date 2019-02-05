@@ -109,6 +109,6 @@ digraph {
     yoroko -> kanashi [ label="（満）睡眠耐性60%" ];
     nejue -> yoroko [ label="（満）呪い耐性50%\n呪いカット\n弱体ガード" ];
     ifui -> kubaru [ label="シールドブレイカー\nチェンジガード" ];
-    kubaru -> miyabi [ label="ウォールブレイカー\n魔キラー30%\n闇30%軽減" ];
+    kubaru -> miyabi [ label="ウォールブレイカー\n魔キラー30%\n闇25%軽減" ];
     yakushi -> miyabi [ label="（満）毒耐性50%\nウォールブレイカー\n魔キラー30%" ];
 }
