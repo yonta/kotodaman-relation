@@ -40,6 +40,8 @@ digraph {
     // shinsha [ label="シンシャク" fontcolor="#0000dd" ];
     sakushu [ label="サクシュ" fontcolor="#990099" ];
 
+    // kiyohe [ label="キヨ蛇メ" fontcolor="#0000dd" ];
+
     // yataka [ label="ヤ宝ス" fontcolor="#990099" ];
 
     // yande [ label="ヤンでれヴィアタン" fontcolor="#0000dd" ];
