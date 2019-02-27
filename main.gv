@@ -167,12 +167,12 @@ digraph {
 
     // yoroko [ label="ヨロコビ" fontcolor="#007000" ];
 
-    nejue [ label="ネージュエル" fontcolor="#cc0000" ];
-    warusa [ label="ワルサーンタ" fontcolor="#990099" ];
+    // nejue [ label="ネージュエル" fontcolor="#cc0000" ];
+    // warusa [ label="ワルサーンタ" fontcolor="#990099" ];
     // kubaru [ label="クバルフ" fontcolor="#403000" ];
 
-    hidaru [ label="ヒダル猪" fontcolor="#0000dd" ];
-    yakushi [ label="ヤク獅子" fontcolor="#403000" ];
+    // hidaru [ label="ヒダル猪" fontcolor="#0000dd" ];
+    // yakushi [ label="ヤク獅子" fontcolor="#403000" ];
     // miyabi [ label="ミヤビ凧" fontcolor="#990099" ];
 
     // yasashi [ label="ヤサシサ" fontcolor="#403000" ];
@@ -255,7 +255,4 @@ digraph {
     raita -> keiro [ label="獣キラー30%\nチェンジガード" ];
     koboku -> raita [ label="（満）獣キラー50%\n弱体ガード" ];
     tenpa -> sebun [ label="英キラー30%\n弱体ガード" ];
-
-    hidaru -> nejue [ label="全体攻撃\n(満)毒耐性50%\n龍キラー30%" ];
-    warusa -> yakushi [ label="龍キラー50%（満）\nウォールブレイカー" ];
 }
