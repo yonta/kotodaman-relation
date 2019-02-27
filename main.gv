@@ -77,7 +77,7 @@ digraph {
     // shumatsu [ label="シュウマツテイル" fontcolor="#cc0000" ];
 
     // noeru [ label="ノエル" fontcolor="#007000" ];
-    // meruku [ label="メリクリ" fontcolor="#403000" ];
+    // meruku [ label="メリクリ" fontcolor="#cc0000" ];
 
     // inyan [ label="イーニャン" fontcolor="#0000dd" ];
     // uon [ label="ウォン＝クーロン" fontcolor="#007000" ];
