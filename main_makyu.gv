@@ -31,6 +31,8 @@ digraph {
     uon [ label="ウォン＝クーロン" fontcolor="#007000" ];
     koui [ label="コウイ" fontcolor="#403000" ];
     hakujo [ label="ハクジョウ" fontcolor="#990099" ];
+    ikaru [ label="イカルマ" fontcolor="#403000" ];
+    kagami [ label="カガミエル" fontcolor="#403000" ];
 
     //-------------------------------------------------------
     // 上級15面キャラ
@@ -119,4 +121,6 @@ digraph {
     yakushi -> yasashi [ label="や\nウォールブレイカー\n魔キラー30%" ];
     kubaru -> yasashi [ label="く\n（満）呪い耐性70%\nウォールブレイカー\n魔キラー30%\n闇25%軽減" ];
     miyabi -> yasashi [ label="（満）呪い耐性70%\nウォールブレイカー\n神キラー30%\n光25%軽減" ];
+    ikaru -> yasashi [ label="全体攻撃\nチェンジガード\nウォールブレイカー" ];
+    kagami -> yasashi [ label="光闇攻撃UP\nウォールブレイカー" ];
 }

@@ -88,6 +88,16 @@ digraph {
     // koui [ label="コウイ" fontcolor="#403000" ];
     // hakujo [ label="ハクジョウ" fontcolor="#990099" ];
 
+    // ikaru [ label="イカルマ" fontcolor="#403000" ];
+    // yumeta [ label="ユメタトロン" fontcolor="#990099" ];
+
+    tenchu [ label="テンチュウリエル" fontcolor="#cc0000" ];
+    hogara [ label="ホガラファエル" fontcolor="#0000dd" ];
+    // kagami [ label="カガミエル" fontcolor="#403000" ];
+
+    // pashuva [ label="パー淑ヴァル" fontcolor="#403000" ];
+    // inishi [ label="イニシアーサー" fontcolor="#0000dd" ];
+
     //-------------------------------------------------------
     // 上級15面キャラ
     //-------------------------------------------------------
@@ -155,15 +165,18 @@ digraph {
 
     // yoroko [ label="ヨロコビ" fontcolor="#007000" ];
 
-    // nejue [ label="ネージュエル" fontcolor="#cc0000" ];
+    nejue [ label="ネージュエル" fontcolor="#cc0000" ];
     warusa [ label="ワルサーンタ" fontcolor="#990099" ];
     // kubaru [ label="クバルフ" fontcolor="#403000" ];
 
-    // hidaru [ label="ヒダル猪" fontcolor="#0000dd" ];
+    hidaru [ label="ヒダル猪" fontcolor="#0000dd" ];
     yakushi [ label="ヤク獅子" fontcolor="#403000" ];
     // miyabi [ label="ミヤビ凧" fontcolor="#990099" ];
 
     // yasashi [ label="ヤサシサ" fontcolor="#403000" ];
+
+    rokuza [ label="ロックザファン" fontcolor="#cc0000" ];
+    madara [ label="マダラキエル" fontcolor="#007000" ];
 
     //-------------------------------------------------------
     // ガチャキャラ適正
@@ -196,6 +209,9 @@ digraph {
 
     horayu -> koboku [ label="睡眠耐性50%\n獣キラー50%" ];
     choshin -> keiro [ label="チェンジガード\n火50%軽減" ];
+
+    tenchu -> madara [ label="て\n10回攻撃\n木キラー20%\n魔キラー60%" ];
+    hogara -> rokuza [ label="水光能力UP\n光水攻撃\nウォールブレイカー\n闇キラー50%" ];
 
     //-------------------------------------------------------
     // 上級15面キャラ適正
@@ -238,5 +254,6 @@ digraph {
     koboku -> raita [ label="（満）獣キラー50%\n弱体ガード" ];
     tenpa -> sebun [ label="英キラー30%\n弱体ガード" ];
 
+    hidaru -> nejue [ label="全体攻撃\n(満)毒耐性50%\n龍キラー30%" ];
     warusa -> yakushi [ label="龍キラー50%（満）\nウォールブレイカー" ];
 }
